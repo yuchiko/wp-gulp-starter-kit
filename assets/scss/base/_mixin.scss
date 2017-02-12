@@ -1,22 +1,19 @@
+//------------------------------------------------------------------------------
+//  Set a rem font size with pixel fallback by Nicolas Gallagher
+//
+//	Rem is similar to the em value, but instead of being relative to the parent
+//	element it’s relative to the font-size set in the <html>.
+//------------------------------------------------------------------------------
+//	Сomposed:
+// 	@mixin font-size()
+//	@function calculateRem()
+//------------------------------------------------------------------------------
+//  Url: https://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540
+//------------------------------------------------------------------------------
 
-@mixin clearfix {
-	zoom:1;
-
-	&:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-
-}
-
-@mixin absolute-list-circle($size) {
-	position: absolute;
-	border-radius: 50%;
-	width: $size;
-	height: $size;
-	top: $size / 2;
-	margin-top: $size / 4;
+@mixin font-size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
 }
 
 //-----------gradient---------------
