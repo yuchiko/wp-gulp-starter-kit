@@ -1,3 +1,3 @@
-useful links and best pratices for WP is [here](https://github.com/yuchiko/guide-wp-custom-theme#Другое)
+useful links and best pratices for WP markdown - [wp-guide](https://github.com/yuchiko/guide-wp-custom-theme#Другое)
 
 demo page: in progress...
